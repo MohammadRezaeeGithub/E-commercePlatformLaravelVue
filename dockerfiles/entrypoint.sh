@@ -1,14 +1,20 @@
 #!/bin/sh
 
+cd /app
+
+echo "Installing dependencies..."
+
 if [ ! -d "vendor" ]; then
-  echo "Installing dependencies..."
   composer install
 fi
 
-# npm
 if [ ! -d "node_modules" ]; then
-  echo "Installing npm dependencies..."
   npm install
 fi
+
+# optional for dev (if you need assets compiled once)
+npm run build || true
+
+php artisan key:generate --force || true
 
 php-fpm
