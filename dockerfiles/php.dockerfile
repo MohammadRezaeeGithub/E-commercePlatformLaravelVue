@@ -8,5 +8,13 @@ RUN docker-php-ext-install pdo pdo_mysql
 
 
 
+# installing composer in this image
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-#the docker file dose not ended with command, the command in the base image will be executed
+# coping the entrypoint
+COPY dockerfiles/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
+
+
