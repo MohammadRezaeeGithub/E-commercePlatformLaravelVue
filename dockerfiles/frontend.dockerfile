@@ -1,0 +1,11 @@
+# dockerfiles/frontend.dockerfile
+FROM node:20
+
+WORKDIR /app
+
+COPY src/frontend/package*.json ./
+RUN npm install
+
+COPY src/frontend .
+
+CMD ["npm", "run", "dev", "--", "--host"]
