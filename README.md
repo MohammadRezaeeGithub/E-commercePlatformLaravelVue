@@ -30,8 +30,6 @@ A full-stack e-commerce platform built with Laravel (backend) and Vue.js (admin 
 
 ---
 
----
-
 ## Tech Stack
 
 - Backend: Laravel (PHP 8.x)
@@ -55,6 +53,8 @@ The project is divided into two main parts:
 
 - **Customer-facing UI**
   Served directly by Laravel (Blade templates).
+
+---
 
 ## Prerequisites
 
