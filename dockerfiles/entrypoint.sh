@@ -5,4 +5,10 @@ if [ ! -d "vendor" ]; then
   composer install
 fi
 
+# npm
+if [ ! -d "node_modules" ]; then
+  echo "Installing npm dependencies..."
+  npm install
+fi
+
 php-fpm
