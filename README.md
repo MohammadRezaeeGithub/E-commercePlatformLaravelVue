@@ -1,32 +1,6 @@
-# 🛒 E-Commerce Platform (Laravel + Vue + Docker)
+# E-Commerce Platform (Laravel + Vue + Docker)
 
 A full-stack e-commerce platform built with Laravel (backend) and Vue.js (admin panel), fully containerized using Docker.
-
----
-
-## Tech Stack
-
-- Backend: Laravel (PHP 8.x)
-- Frontend (Admin Panel): Vue 3 + Vite
-- Web Server: Nginx
-- Database: MySQL 8
-- Containerization: Docker & Docker Compose
-- Payment: Stripe (test mode)
-
----
-
-## Architecture
-
-The project is divided into two main parts:
-
-- **Backend (Laravel)**
-  Handles API, authentication, business logic, and database.
-
-- **Frontend (Vue.js Admin Panel)**
-  Runs separately using Vite (port 5173).
-
-- **Customer-facing UI**
-  Served directly by Laravel (Blade templates).
 
 ---
 
@@ -55,6 +29,32 @@ The project is divided into two main parts:
 ```
 
 ---
+
+---
+
+## Tech Stack
+
+- Backend: Laravel (PHP 8.x)
+- Frontend (Admin Panel): Vue 3 + Vite
+- Web Server: Nginx
+- Database: MySQL 8
+- Containerization: Docker & Docker Compose
+- Payment: Stripe (test mode)
+
+---
+
+## Architecture
+
+The project is divided into two main parts:
+
+- **Backend (Laravel)**
+  Handles API, authentication, business logic, and database.
+
+- **Frontend (Vue.js Admin Panel)**
+  Runs separately using Vite (port 5173).
+
+- **Customer-facing UI**
+  Served directly by Laravel (Blade templates).
 
 ## Prerequisites
 
