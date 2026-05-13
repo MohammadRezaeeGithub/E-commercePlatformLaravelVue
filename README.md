@@ -71,7 +71,7 @@ Make sure you have installed:
 
 ```bash
 git clone https://github.com/MohammadRezaeeGithub/E-commercePlatformLaravelVue.js.git
-cd <E-commercePlatformLaravelVue>
+cd E-commercePlatformLaravelVue
 ```
 
 ---
