@@ -152,6 +152,13 @@ docker compose exec backend php artisan migrate:fresh --seed --force
 
 > **No local PHP, Node.js, or Composer needed** — everything runs inside Docker.
 
+### Demo Credentials
+ 
+| Role | Email | Password |
+|---|---|---|
+| 🖥️ Admin | admin@example.com | admin123 |
+
+
 ### Stripe Setup
 
 To enable payments, add your Stripe keys to `src/backend/.env`:
