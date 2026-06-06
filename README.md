@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛒 E-Commerce Platform — Laravel & Vue.js
+# E-Commerce Platform — Laravel & Vue.js
 
 **A full-stack e-commerce platform with a Laravel REST API backend, a Vue.js 3 admin dashboard, and a Blade-powered storefront — fully containerized with Docker.**
 
