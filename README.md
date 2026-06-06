@@ -156,7 +156,7 @@ docker compose exec backend php artisan migrate:fresh --seed --force
  
 | Role | Email | Password |
 |---|---|---|
-| 🖥️ Admin | admin@example.com | admin123 |
+| Admin | admin@example.com | admin123 |
 
 
 ### Stripe Setup
@@ -171,7 +171,7 @@ STRIPE_SECRET=sk_test_...
 ---
 
 
-## 🛣 Roadmap
+## Roadmap
 
 - [x] Product catalog with search & sort
 - [x] Shopping cart with session storage
