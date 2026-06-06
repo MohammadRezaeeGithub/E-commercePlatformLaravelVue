@@ -163,23 +163,6 @@ STRIPE_SECRET=sk_test_...
 
 ---
 
-## 📸 Screenshots
-
-### Storefront — Product Listing
-![Product Listing](.github/screenshots/storefront-products.png)
-
-### Storefront — Cart
-![Cart](.github/screenshots/storefront-cart.png)
-
-### Storefront — My Account
-![My Account](.github/screenshots/storefront-account.png)
-
-### Admin — Dashboard
-![Admin Dashboard](.github/screenshots/admin-dashboard.png)
-
-> 📁 Add screenshots to `.github/screenshots/` in the repo root.
-
----
 
 ## 🛣 Roadmap
 
